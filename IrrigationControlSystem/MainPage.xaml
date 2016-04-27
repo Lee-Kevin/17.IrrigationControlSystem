@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="IrrigationControlSystem.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IrrigationControlSystem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="974.833">
+
+    <!--<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    </Grid>-->
+    <Grid Background="DarkGray">
+        <TextBlock x:Name="Title1" HorizontalAlignment="Center" Margin="391.164,60,373.774,0" TextWrapping="Wrap" Text="Irrigation Control System" VerticalAlignment="Top" Height="95" Width="675.062" FontSize="60" RenderTransformOrigin="0.495,0.513" Foreground="White" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+            <TextBlock.RenderTransform>
+                <CompositeTransform SkewX="2.231" TranslateX="1.499"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <ToggleButton x:Name="Toggle1" Content="OPEN"   Checked="ToggleButton_Checked1" Unchecked="ToggleButton_Unchecked1"  Margin="325,454,0,475" Width="154" Foreground="White" Height="46"  />
+        <ToggleButton x:Name="Toggle2" Content="OPEN"   Checked="ToggleButton_Checked2" Unchecked="ToggleButton_Unchecked2"  Margin="643,454,0,475" Width="154" Foreground="White" Height="46" RenderTransformOrigin="0.381,0.667"  />
+        <ToggleButton x:Name="Toggle3" Content="OPEN"   Checked="ToggleButton_Checked3" Unchecked="ToggleButton_Unchecked3"  Margin="964,454,0,475" Width="154" Foreground="White" Height="46"  />
+
+        <TextBlock x:Name="Moisture1" HorizontalAlignment="Center" Margin="323,205,961,0" TextWrapping="Wrap" Text="Moisture1" VerticalAlignment="Top" Width="156" FontSize="32" Foreground="Red" TextAlignment="Center" Height="47" RenderTransformOrigin="0.98,0.248" />
+        <TextBlock x:Name="Moisture2" HorizontalAlignment="Center" Margin="643,205,641,0" TextWrapping="Wrap" Text="Moisture2" VerticalAlignment="Top" Width="156" FontSize="32" Foreground="Red" TextAlignment="Center" Height="47" RenderTransformOrigin="0.98,0.248" />
+        <TextBlock x:Name="Moisture3" HorizontalAlignment="Center" Margin="964,205,320,0" TextWrapping="Wrap" Text="Moisture3" VerticalAlignment="Top" Width="156" FontSize="32" Foreground="Red" TextAlignment="Center" Height="47" RenderTransformOrigin="0.98,0.248" />
+
+        <TextBlock x:Name="Value1" HorizontalAlignment="Center" Margin="323,300,961,0" TextWrapping="Wrap" Text="Value" VerticalAlignment="Top" Width="156" FontSize="32" Foreground="Blue" TextAlignment="Center" Height="47" RenderTransformOrigin="0.98,0.248" />
+        <TextBlock x:Name="Value2" HorizontalAlignment="Center" Margin="643,300,641,0" TextWrapping="Wrap" Text="Value2" VerticalAlignment="Top" Width="156" FontSize="32" Foreground="Blue" TextAlignment="Center" Height="47" RenderTransformOrigin="0.98,0.248" />
+        <TextBlock x:Name="Value3" HorizontalAlignment="Center" Margin="962,300,322,0" TextWrapping="Wrap" Text="Value3" VerticalAlignment="Top" Width="156" FontSize="32" Foreground="Blue" TextAlignment="Center" Height="47" RenderTransformOrigin="0.98,0.248" />
+
+
+
+
+
+
+    </Grid>
+</Page>
